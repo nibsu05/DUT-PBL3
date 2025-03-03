@@ -1,0 +1,13 @@
+C:\Users\Asus\Desktop\AirlinesVietWinForm\AirlinesVietWinForm\bin\Debug\AirlinesVietWinForm.exe.config
+C:\Users\Asus\Desktop\AirlinesVietWinForm\AirlinesVietWinForm\bin\Debug\AirlinesVietWinForm.exe
+C:\Users\Asus\Desktop\AirlinesVietWinForm\AirlinesVietWinForm\bin\Debug\AirlinesVietWinForm.pdb
+C:\Users\Asus\Desktop\AirlinesVietWinForm\AirlinesVietWinForm\obj\Debug\AirlinesVietWinForm.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\AirlinesVietWinForm\AirlinesVietWinForm\obj\Debug\AirlinesVietWinForm.csproj.SuggestedBindingRedirects.cache
+C:\Users\Asus\Desktop\AirlinesVietWinForm\AirlinesVietWinForm\obj\Debug\AirlinesVietWinForm.Properties.Resources.resources
+C:\Users\Asus\Desktop\AirlinesVietWinForm\AirlinesVietWinForm\obj\Debug\AirlinesVietWinForm.csproj.GenerateResource.cache
+C:\Users\Asus\Desktop\AirlinesVietWinForm\AirlinesVietWinForm\obj\Debug\AirlinesVietWinForm.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\AirlinesVietWinForm\AirlinesVietWinForm\obj\Debug\AirlinesVietWinForm.exe
+C:\Users\Asus\Desktop\AirlinesVietWinForm\AirlinesVietWinForm\obj\Debug\AirlinesVietWinForm.pdb
+C:\Users\Asus\Desktop\AirlinesVietWinForm\AirlinesVietWinForm\obj\Debug\AirlinesVietWinForm.Login.resources
+C:\Users\Asus\Desktop\AirlinesVietWinForm\AirlinesVietWinForm\obj\Debug\AirlinesVietWinForm.MainMenu.resources
+C:\Users\Asus\Desktop\AirlinesVietWinForm\AirlinesVietWinForm\obj\Debug\AirlinesVietWinForm.SelectFlight.resources
