@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{96083632-774A-4E28-9A59-50C525C6A737}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AirlinesVietWinForm</RootNamespace>
+    <AssemblyName>AirlinesVietWinForm</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LoginMK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginMK.Designer.cs">
+      <DependentUpon>LoginMK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginTK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginTK.Designer.cs">
+      <DependentUpon>LoginTK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile.Designer.cs">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SelectFlight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectFlight.Designer.cs">
+      <DependentUpon>SelectFlight.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="LoginMK.resx">
+      <DependentUpon>LoginMK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginTK.resx">
+      <DependentUpon>LoginTK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile.resx">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SelectFlight.resx">
+      <DependentUpon>SelectFlight.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\4.jpg!bwr800" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloudbackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2548059.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sponsor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightarrow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\businessicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skyBOSSicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deluxeicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ecoicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hetcho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane-rf-gty-bb-230517_1684348444478_hpMain_16x9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paper-plane-flying-around-the-globe-around-the-world-travelling-by-plane-airplane-trip-in-various-country-planet-earth-travel-and-tourism-concept-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bus_Tier\Bus_Tier.csproj">
+      <Project>{2d877163-ff7c-475f-b5e7-82059627c941}</Project>
+      <Name>Bus_Tier</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{9b03e16c-3c02-4fbe-a478-ebf4c9623b47}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

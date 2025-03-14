@@ -163,6 +163,16 @@ namespace AirlinesVietWinForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap airplane_rf_gty_bb_230517_1684348444478_hpMain_16x9 {
+            get {
+                object obj = ResourceManager.GetObject("airplane-rf-gty-bb-230517_1684348444478_hpMain_16x9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap businessicon {
             get {
                 object obj = ResourceManager.GetObject("businessicon", resourceCulture);
@@ -196,6 +206,27 @@ namespace AirlinesVietWinForm.Properties {
         internal static System.Drawing.Bitmap ecoicon {
             get {
                 object obj = ResourceManager.GetObject("ecoicon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hetcho {
+            get {
+                object obj = ResourceManager.GetObject("hetcho", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap paper_plane_flying_around_the_globe_around_the_world_travelling_by_plane_airplane_trip_in_various_country_planet_earth_travel_and_tourism_concept_vector {
+            get {
+                object obj = ResourceManager.GetObject("paper-plane-flying-around-the-globe-around-the-world-travelling-by-plane-airplane" +
+                        "-trip-in-various-country-planet-earth-travel-and-tourism-concept-vector", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

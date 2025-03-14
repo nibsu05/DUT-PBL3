@@ -127,11 +127,17 @@
   <data name="deluxeicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\deluxeicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="airplane-rf-gty-bb-230517_1684348444478_hpMain_16x9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\airplane-rf-gty-bb-230517_1684348444478_hpMain_16x9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ecoicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ecoicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,10 +169,13 @@
   <data name="cloudbackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cloudbackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="hetcho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hetcho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="2548059" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2548059.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ecoicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ecoicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="paper-plane-flying-around-the-globe-around-the-world-travelling-by-plane-airplane-trip-in-various-country-planet-earth-travel-and-tourism-concept-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paper-plane-flying-around-the-globe-around-the-world-travelling-by-plane-airplane-trip-in-various-country-planet-earth-travel-and-tourism-concept-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -1,0 +1,15 @@
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\AirlinesVietWinForm\bin\Debug\AirlinesVietWinForm.exe.config
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\AirlinesVietWinForm\bin\Debug\AirlinesVietWinForm.exe
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\AirlinesVietWinForm\bin\Debug\AirlinesVietWinForm.pdb
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\AirlinesVietWinForm\obj\Debug\UI_Tier.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\AirlinesVietWinForm\obj\Debug\UI_Tier.csproj.SuggestedBindingRedirects.cache
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\AirlinesVietWinForm\obj\Debug\AirlinesVietWinForm.MainMenu.resources
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\AirlinesVietWinForm\obj\Debug\AirlinesVietWinForm.Properties.Resources.resources
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\AirlinesVietWinForm\obj\Debug\AirlinesVietWinForm.SelectFlight.resources
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\AirlinesVietWinForm\obj\Debug\UI_Tier.csproj.GenerateResource.cache
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\AirlinesVietWinForm\obj\Debug\UI_Tier.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\AirlinesVietWinForm\obj\Debug\AirlinesVietWinForm.exe
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\AirlinesVietWinForm\obj\Debug\AirlinesVietWinForm.pdb
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\AirlinesVietWinForm\obj\Debug\AirlinesVietWinForm.LoginMK.resources
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\AirlinesVietWinForm\obj\Debug\AirlinesVietWinForm.LoginTK.resources
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\AirlinesVietWinForm\obj\Debug\AirlinesVietWinForm.Profile.resources
