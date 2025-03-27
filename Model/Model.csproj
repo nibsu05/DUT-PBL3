@@ -41,6 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Airport.cs" />
+    <Compile Include="Booking.cs" />
+    <Compile Include="Airplane.cs" />
+    <Compile Include="Flight.cs" />
+    <Compile Include="Seat.cs" />
     <Compile Include="User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

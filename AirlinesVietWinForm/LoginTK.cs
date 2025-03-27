@@ -15,6 +15,7 @@ namespace AirlinesVietWinForm
         public LoginTK()
         {
             InitializeComponent();
+            comboBoxSoDienThoai.SelectedIndex = 0;
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
@@ -29,6 +30,28 @@ namespace AirlinesVietWinForm
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void LoginTK_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void buttonDangNhap_Click(object sender, EventArgs e)
+        {
+            string phone = textBoxSoDienThoai.Text.Trim();
+
+            if (string.IsNullOrEmpty(phone))
+            {
+                MessageBox.Show("Vui lòng nhập số điện thoại!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Mở LoginMK và truyền số điện thoại sang
+            LoginMK loginmk = new LoginMK(phone);
+            this.Hide();
+            loginmk.ShowDialog();
+            //this.Close(); // Hiển thị lại nếu cần
         }
     }
 }

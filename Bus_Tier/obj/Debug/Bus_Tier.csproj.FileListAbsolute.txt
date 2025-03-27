@@ -1,0 +1,11 @@
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\Bus_Tier\obj\Debug\Bus_Tier.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\Bus_Tier\obj\Debug\Bus_Tier.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\Bus_Tier\bin\Debug\Bus_Tier.dll
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\Bus_Tier\bin\Debug\Bus_Tier.pdb
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\Bus_Tier\bin\Debug\Connector_Tier.dll
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\Bus_Tier\bin\Debug\Model.dll
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\Bus_Tier\bin\Debug\Connector_Tier.pdb
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\Bus_Tier\bin\Debug\Model.pdb
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\Bus_Tier\obj\Debug\Bus_Tier.csproj.CopyComplete
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\Bus_Tier\obj\Debug\Bus_Tier.dll
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\Bus_Tier\obj\Debug\Bus_Tier.pdb

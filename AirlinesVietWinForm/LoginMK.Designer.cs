@@ -30,16 +30,17 @@
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.checkBoxHienMatKhau = new System.Windows.Forms.CheckBox();
+            this.textBoxMatKhau = new System.Windows.Forms.TextBox();
+            this.labelDangNhapBangTaiKhoanKhac = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.labelGioiThieu = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonDangNhap = new System.Windows.Forms.Button();
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -58,13 +59,14 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.textBox1);
-            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Controls.Add(this.checkBoxHienMatKhau);
+            this.groupBox2.Controls.Add(this.textBoxMatKhau);
+            this.groupBox2.Controls.Add(this.labelDangNhapBangTaiKhoanKhac);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.labelGioiThieu);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.button1);
+            this.groupBox2.Controls.Add(this.buttonDangNhap);
             this.groupBox2.Controls.Add(this.vScrollBar1);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -74,6 +76,49 @@
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Đăng nhập";
+            // 
+            // checkBoxHienMatKhau
+            // 
+            this.checkBoxHienMatKhau.AutoSize = true;
+            this.checkBoxHienMatKhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxHienMatKhau.Location = new System.Drawing.Point(543, 135);
+            this.checkBoxHienMatKhau.Name = "checkBoxHienMatKhau";
+            this.checkBoxHienMatKhau.Size = new System.Drawing.Size(125, 22);
+            this.checkBoxHienMatKhau.TabIndex = 11;
+            this.checkBoxHienMatKhau.Text = "Hiện mật khẩu";
+            this.checkBoxHienMatKhau.UseVisualStyleBackColor = true;
+            this.checkBoxHienMatKhau.CheckedChanged += new System.EventHandler(this.checkBoxHienMatKhau_CheckedChanged);
+            // 
+            // textBoxMatKhau
+            // 
+            this.textBoxMatKhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxMatKhau.Location = new System.Drawing.Point(298, 127);
+            this.textBoxMatKhau.Name = "textBoxMatKhau";
+            this.textBoxMatKhau.Size = new System.Drawing.Size(201, 30);
+            this.textBoxMatKhau.TabIndex = 10;
+            this.textBoxMatKhau.UseSystemPasswordChar = true;
+            // 
+            // labelDangNhapBangTaiKhoanKhac
+            // 
+            this.labelDangNhapBangTaiKhoanKhac.AutoSize = true;
+            this.labelDangNhapBangTaiKhoanKhac.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelDangNhapBangTaiKhoanKhac.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.labelDangNhapBangTaiKhoanKhac.Location = new System.Drawing.Point(251, 356);
+            this.labelDangNhapBangTaiKhoanKhac.Name = "labelDangNhapBangTaiKhoanKhac";
+            this.labelDangNhapBangTaiKhoanKhac.Size = new System.Drawing.Size(288, 25);
+            this.labelDangNhapBangTaiKhoanKhac.TabIndex = 9;
+            this.labelDangNhapBangTaiKhoanKhac.Text = "Đăng nhập bằng tài khoản khác";
+            this.labelDangNhapBangTaiKhoanKhac.Click += new System.EventHandler(this.labelDangNhapBangTaiKhoanKhac_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(246, 70);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(311, 25);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Vui lòng nhập mật khẩu để tiếp tục";
             // 
             // labelGioiThieu
             // 
@@ -107,16 +152,17 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "Bạn quên mật khẩu?";
             // 
-            // button1
+            // buttonDangNhap
             // 
-            this.button1.BackColor = System.Drawing.Color.Gold;
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(266, 200);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(273, 65);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Đăng nhập";
-            this.button1.UseVisualStyleBackColor = false;
+            this.buttonDangNhap.BackColor = System.Drawing.Color.Gold;
+            this.buttonDangNhap.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonDangNhap.Location = new System.Drawing.Point(266, 200);
+            this.buttonDangNhap.Name = "buttonDangNhap";
+            this.buttonDangNhap.Size = new System.Drawing.Size(273, 65);
+            this.buttonDangNhap.TabIndex = 4;
+            this.buttonDangNhap.Text = "Đăng nhập";
+            this.buttonDangNhap.UseVisualStyleBackColor = false;
+            this.buttonDangNhap.Click += new System.EventHandler(this.buttonDangNhap_Click);
             // 
             // vScrollBar1
             // 
@@ -148,35 +194,6 @@
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(246, 70);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(311, 25);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Vui lòng nhập mật khẩu để tiếp tục";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label5.Location = new System.Drawing.Point(251, 356);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(288, 25);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Đăng nhập bằng tài khoản khác";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(234, 127);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(334, 30);
-            this.textBox1.TabIndex = 10;
-            // 
             // LoginMK
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -205,12 +222,13 @@
         private System.Windows.Forms.Label labelGioiThieu;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonDangNhap;
         private System.Windows.Forms.VScrollBar vScrollBar1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label labelDangNhapBangTaiKhoanKhac;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxMatKhau;
+        private System.Windows.Forms.CheckBox checkBoxHienMatKhau;
     }
 }

@@ -13,3 +13,12 @@ C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\AirlinesVietWinForm\o
 C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\AirlinesVietWinForm\obj\Debug\AirlinesVietWinForm.LoginMK.resources
 C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\AirlinesVietWinForm\obj\Debug\AirlinesVietWinForm.LoginTK.resources
 C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\AirlinesVietWinForm\obj\Debug\AirlinesVietWinForm.Profile.resources
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\AirlinesVietWinForm\bin\Debug\Bus_Tier.dll
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\AirlinesVietWinForm\bin\Debug\Model.dll
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\AirlinesVietWinForm\bin\Debug\Bus_Tier.pdb
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\AirlinesVietWinForm\bin\Debug\Model.pdb
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\AirlinesVietWinForm\obj\Debug\UI_Tier.csproj.CopyComplete
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\AirlinesVietWinForm\bin\Debug\Connector_Tier.dll
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\AirlinesVietWinForm\bin\Debug\Connector_Tier.pdb
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\AirlinesVietWinForm\obj\Debug\AirlinesVietWinForm.Register.resources
+C:\Users\Asus\Desktop\Đang học\PBL3\AirlinesVietWinForm\AirlinesVietWinForm\obj\Debug\AirlinesVietWinForm.ProfileThongTinCaNhan.resources

@@ -28,11 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.labelCodeAirport1 = new System.Windows.Forms.Label();
+            this.labelCityAirport1 = new System.Windows.Forms.Label();
+            this.labelCodeAirport2 = new System.Windows.Forms.Label();
+            this.labelCityAirport2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -41,6 +42,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.label10 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
@@ -56,7 +58,45 @@
             this.groupBox10 = new System.Windows.Forms.GroupBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.button7 = new System.Windows.Forms.Button();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.button8 = new System.Windows.Forms.Button();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
+            this.groupBox12 = new System.Windows.Forms.GroupBox();
+            this.button9 = new System.Windows.Forms.Button();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label24 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label23 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label22 = new System.Windows.Forms.Label();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.label21 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
@@ -64,52 +104,17 @@
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.label22 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label23 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label24 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.groupBox12 = new System.Windows.Forms.GroupBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.panel6 = new System.Windows.Forms.Panel();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.button7 = new System.Windows.Forms.Button();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.buttonTroLai = new System.Windows.Forms.Button();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.panel11 = new System.Windows.Forms.Panel();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox6.SuspendLayout();
             this.groupBox7.SuspendLayout();
             this.groupBox8.SuspendLayout();
@@ -117,79 +122,104 @@
             this.groupBox10.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.groupBox11.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.groupBox12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel9.SuspendLayout();
+            this.panel8.SuspendLayout();
+            this.panel7.SuspendLayout();
+            this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.panel6.SuspendLayout();
-            this.panel7.SuspendLayout();
-            this.panel8.SuspendLayout();
-            this.panel9.SuspendLayout();
+            this.groupBox12.SuspendLayout();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panel3.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.groupBox11.SuspendLayout();
+            this.panel10.SuspendLayout();
+            this.panel11.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // labelCodeAirport1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(106, 18);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(210, 32);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Code Airport 1";
+            this.labelCodeAirport1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelCodeAirport1.AutoSize = true;
+            this.labelCodeAirport1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCodeAirport1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.labelCodeAirport1.Location = new System.Drawing.Point(20, 10);
+            this.labelCodeAirport1.Name = "labelCodeAirport1";
+            this.labelCodeAirport1.Size = new System.Drawing.Size(250, 39);
+            this.labelCodeAirport1.TabIndex = 0;
+            this.labelCodeAirport1.Text = "Code Airport 1";
+            this.labelCodeAirport1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // label2
+            // labelCityAirport1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(146, 62);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(136, 20);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Country Airport 1";
+            this.labelCityAirport1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelCityAirport1.AutoSize = true;
+            this.labelCityAirport1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCityAirport1.Location = new System.Drawing.Point(24, 52);
+            this.labelCityAirport1.Name = "labelCityAirport1";
+            this.labelCityAirport1.Size = new System.Drawing.Size(149, 29);
+            this.labelCityAirport1.TabIndex = 1;
+            this.labelCityAirport1.Text = "City Airport 1";
+            this.labelCityAirport1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
-            // label3
+            // labelCodeAirport2
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(751, 18);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(210, 32);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Code Airport 2";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.labelCodeAirport2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelCodeAirport2.AutoSize = true;
+            this.labelCodeAirport2.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCodeAirport2.Location = new System.Drawing.Point(10, 10);
+            this.labelCodeAirport2.Name = "labelCodeAirport2";
+            this.labelCodeAirport2.Size = new System.Drawing.Size(250, 39);
+            this.labelCodeAirport2.TabIndex = 2;
+            this.labelCodeAirport2.Text = "Code Airport 2";
+            this.labelCodeAirport2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.labelCodeAirport2.Click += new System.EventHandler(this.label3_Click);
             // 
-            // label4
+            // labelCityAirport2
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(789, 62);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(136, 20);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Country Airport 2";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.labelCityAirport2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelCityAirport2.AutoSize = true;
+            this.labelCityAirport2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCityAirport2.Location = new System.Drawing.Point(14, 52);
+            this.labelCityAirport2.Name = "labelCityAirport2";
+            this.labelCityAirport2.Size = new System.Drawing.Size(149, 29);
+            this.labelCityAirport2.TabIndex = 3;
+            this.labelCityAirport2.Text = "City Airport 2";
+            this.labelCityAirport2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.White;
+            this.groupBox1.Controls.Add(this.panel11);
             this.groupBox1.Controls.Add(this.pictureBox1);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.panel10);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(77, 49);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1163, 103);
+            this.groupBox1.Size = new System.Drawing.Size(1215, 103);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.groupBox1.Text = "Chuyến bay";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::AirlinesVietWinForm.Properties.Resources.rightarrow;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(573, 40);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(68, 41);
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
             // 
             // label5
             // 
@@ -290,6 +320,16 @@
             this.label10.Size = new System.Drawing.Size(148, 22);
             this.label10.TabIndex = 9;
             this.label10.Text = "--- | --- | --- | ---";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::AirlinesVietWinForm.Properties.Resources.airplane_icon1;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(280, 37);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(32, 28);
+            this.pictureBox2.TabIndex = 8;
+            this.pictureBox2.TabStop = false;
             // 
             // label9
             // 
@@ -488,6 +528,406 @@
             this.tabPage1.Text = "Ngày hôm qua";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // panel9
+            // 
+            this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel9.Controls.Add(this.button7);
+            this.panel9.Controls.Add(this.label37);
+            this.panel9.Controls.Add(this.label38);
+            this.panel9.Location = new System.Drawing.Point(856, 338);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(281, 186);
+            this.panel9.TabIndex = 14;
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.Aquamarine;
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button7.Location = new System.Drawing.Point(110, 140);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(59, 26);
+            this.button7.TabIndex = 12;
+            this.button7.Text = ">";
+            this.button7.UseVisualStyleBackColor = false;
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.label37.Location = new System.Drawing.Point(68, 79);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(145, 36);
+            this.label37.TabIndex = 1;
+            this.label37.Text = "000 VND";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.Location = new System.Drawing.Point(73, 18);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(135, 51);
+            this.label38.TabIndex = 0;
+            this.label38.Text = "0,000";
+            // 
+            // panel8
+            // 
+            this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel8.Controls.Add(this.button6);
+            this.panel8.Controls.Add(this.label35);
+            this.panel8.Controls.Add(this.label36);
+            this.panel8.Location = new System.Drawing.Point(569, 338);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(281, 186);
+            this.panel8.TabIndex = 13;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.Aquamarine;
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button6.Location = new System.Drawing.Point(110, 140);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(59, 26);
+            this.button6.TabIndex = 12;
+            this.button6.Text = ">";
+            this.button6.UseVisualStyleBackColor = false;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.label35.Location = new System.Drawing.Point(68, 79);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(145, 36);
+            this.label35.TabIndex = 1;
+            this.label35.Text = "000 VND";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(73, 18);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(135, 51);
+            this.label36.TabIndex = 0;
+            this.label36.Text = "0,000";
+            // 
+            // panel7
+            // 
+            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel7.Controls.Add(this.button5);
+            this.panel7.Controls.Add(this.label33);
+            this.panel7.Controls.Add(this.label34);
+            this.panel7.Location = new System.Drawing.Point(856, 135);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(281, 186);
+            this.panel7.TabIndex = 13;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Aquamarine;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button5.Location = new System.Drawing.Point(110, 140);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(59, 26);
+            this.button5.TabIndex = 12;
+            this.button5.Text = ">";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.label33.Location = new System.Drawing.Point(68, 79);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(145, 36);
+            this.label33.TabIndex = 1;
+            this.label33.Text = "000 VND";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Location = new System.Drawing.Point(73, 18);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(135, 51);
+            this.label34.TabIndex = 0;
+            this.label34.Text = "0,000";
+            // 
+            // panel6
+            // 
+            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel6.Controls.Add(this.button4);
+            this.panel6.Controls.Add(this.label32);
+            this.panel6.Controls.Add(this.label31);
+            this.panel6.Location = new System.Drawing.Point(569, 135);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(281, 186);
+            this.panel6.TabIndex = 11;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Aquamarine;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button4.Location = new System.Drawing.Point(110, 140);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(59, 26);
+            this.button4.TabIndex = 12;
+            this.button4.Text = ">";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.label32.Location = new System.Drawing.Point(68, 79);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(145, 36);
+            this.label32.TabIndex = 1;
+            this.label32.Text = "000 VND";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(73, 18);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(135, 51);
+            this.label31.TabIndex = 0;
+            this.label31.Text = "0,000";
+            // 
+            // panel5
+            // 
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel5.Controls.Add(this.button8);
+            this.panel5.Controls.Add(this.pictureBox4);
+            this.panel5.Location = new System.Drawing.Point(283, 338);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(281, 186);
+            this.panel5.TabIndex = 11;
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.Aquamarine;
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button8.Location = new System.Drawing.Point(109, 140);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(59, 26);
+            this.button8.TabIndex = 12;
+            this.button8.Text = ">";
+            this.button8.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackgroundImage = global::AirlinesVietWinForm.Properties.Resources.hetcho;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox4.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(281, 126);
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
+            // 
+            // vScrollBar1
+            // 
+            this.vScrollBar1.Location = new System.Drawing.Point(1176, 135);
+            this.vScrollBar1.Name = "vScrollBar1";
+            this.vScrollBar1.Size = new System.Drawing.Size(28, 531);
+            this.vScrollBar1.TabIndex = 12;
+            // 
+            // groupBox12
+            // 
+            this.groupBox12.BackColor = System.Drawing.Color.Gold;
+            this.groupBox12.Controls.Add(this.button9);
+            this.groupBox12.Controls.Add(this.label25);
+            this.groupBox12.Controls.Add(this.label26);
+            this.groupBox12.Controls.Add(this.label27);
+            this.groupBox12.Controls.Add(this.label28);
+            this.groupBox12.Controls.Add(this.label29);
+            this.groupBox12.Controls.Add(this.label30);
+            this.groupBox12.Location = new System.Drawing.Point(3, 338);
+            this.groupBox12.Name = "groupBox12";
+            this.groupBox12.Size = new System.Drawing.Size(263, 186);
+            this.groupBox12.TabIndex = 11;
+            this.groupBox12.TabStop = false;
+            this.groupBox12.Text = "groupBox12";
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.Aquamarine;
+            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button9.Location = new System.Drawing.Point(105, 154);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(59, 26);
+            this.button9.TabIndex = 11;
+            this.button9.Text = ">";
+            this.button9.UseVisualStyleBackColor = false;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.Color.Red;
+            this.label25.Location = new System.Drawing.Point(152, 114);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(93, 20);
+            this.label25.TabIndex = 9;
+            this.label25.Text = "Bay thẳng";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(13, 115);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(130, 20);
+            this.label26.TabIndex = 8;
+            this.label26.Text = "Airplane Name -";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(148, 60);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(103, 38);
+            this.label27.TabIndex = 7;
+            this.label27.Text = "00:00";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(107, 73);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(43, 22);
+            this.label28.TabIndex = 6;
+            this.label28.Text = "Đến";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(0, 61);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(103, 38);
+            this.label29.TabIndex = 5;
+            this.label29.Text = "00:00";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(91, 18);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(76, 22);
+            this.label30.TabIndex = 4;
+            this.label30.Text = "Flight ID\r\n";
+            // 
+            // panel4
+            // 
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Controls.Add(this.button3);
+            this.panel4.Controls.Add(this.pictureBox3);
+            this.panel4.Location = new System.Drawing.Point(282, 135);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(281, 186);
+            this.panel4.TabIndex = 10;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Aquamarine;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button3.Location = new System.Drawing.Point(110, 140);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(59, 26);
+            this.button3.TabIndex = 11;
+            this.button3.Text = ">";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = global::AirlinesVietWinForm.Properties.Resources.hetcho;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(281, 126);
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.LimeGreen;
+            this.panel3.Controls.Add(this.label24);
+            this.panel3.Location = new System.Drawing.Point(855, 37);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(280, 76);
+            this.panel3.TabIndex = 9;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.BackColor = System.Drawing.Color.LimeGreen;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.label24.Location = new System.Drawing.Point(24, 22);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(230, 32);
+            this.label24.TabIndex = 6;
+            this.label24.Text = "Hạng phổ thông";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Orange;
+            this.panel2.Controls.Add(this.label23);
+            this.panel2.Location = new System.Drawing.Point(569, 37);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(280, 76);
+            this.panel2.TabIndex = 8;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.BackColor = System.Drawing.Color.Orange;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.label23.Location = new System.Drawing.Point(23, 20);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(238, 32);
+            this.label23.TabIndex = 6;
+            this.label23.Text = "Hạng sang trọng";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Crimson;
+            this.panel1.Controls.Add(this.label22);
+            this.panel1.Location = new System.Drawing.Point(283, 37);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(280, 76);
+            this.panel1.TabIndex = 7;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.BackColor = System.Drawing.Color.Crimson;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.label22.Location = new System.Drawing.Point(23, 20);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(238, 32);
+            this.label22.TabIndex = 6;
+            this.label22.Text = "Hạng thương gia";
+            // 
             // groupBox11
             // 
             this.groupBox11.BackColor = System.Drawing.Color.Gold;
@@ -504,6 +944,18 @@
             this.groupBox11.TabIndex = 5;
             this.groupBox11.TabStop = false;
             this.groupBox11.Text = "groupBox11";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Aquamarine;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button1.Location = new System.Drawing.Point(105, 152);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(59, 26);
+            this.button1.TabIndex = 10;
+            this.button1.Text = ">";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // label21
             // 
@@ -576,237 +1028,6 @@
             this.tabPage2.Text = "Ngày hôm nay";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.BackColor = System.Drawing.Color.Crimson;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label22.Location = new System.Drawing.Point(23, 20);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(238, 32);
-            this.label22.TabIndex = 6;
-            this.label22.Text = "Hạng thương gia";
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Crimson;
-            this.panel1.Controls.Add(this.label22);
-            this.panel1.Location = new System.Drawing.Point(283, 37);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(280, 76);
-            this.panel1.TabIndex = 7;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Orange;
-            this.panel2.Controls.Add(this.label23);
-            this.panel2.Location = new System.Drawing.Point(569, 37);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(280, 76);
-            this.panel2.TabIndex = 8;
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.BackColor = System.Drawing.Color.Orange;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label23.Location = new System.Drawing.Point(23, 20);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(238, 32);
-            this.label23.TabIndex = 6;
-            this.label23.Text = "Hạng sang trọng";
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.LimeGreen;
-            this.panel3.Controls.Add(this.label24);
-            this.panel3.Location = new System.Drawing.Point(855, 37);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(280, 76);
-            this.panel3.TabIndex = 9;
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.BackColor = System.Drawing.Color.LimeGreen;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label24.Location = new System.Drawing.Point(24, 22);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(230, 32);
-            this.label24.TabIndex = 6;
-            this.label24.Text = "Hạng phổ thông";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Aquamarine;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button1.Location = new System.Drawing.Point(105, 152);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(59, 26);
-            this.button1.TabIndex = 10;
-            this.button1.Text = ">";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // panel4
-            // 
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.button3);
-            this.panel4.Controls.Add(this.pictureBox3);
-            this.panel4.Location = new System.Drawing.Point(282, 135);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(281, 186);
-            this.panel4.TabIndex = 10;
-            // 
-            // groupBox12
-            // 
-            this.groupBox12.BackColor = System.Drawing.Color.Gold;
-            this.groupBox12.Controls.Add(this.button9);
-            this.groupBox12.Controls.Add(this.label25);
-            this.groupBox12.Controls.Add(this.label26);
-            this.groupBox12.Controls.Add(this.label27);
-            this.groupBox12.Controls.Add(this.label28);
-            this.groupBox12.Controls.Add(this.label29);
-            this.groupBox12.Controls.Add(this.label30);
-            this.groupBox12.Location = new System.Drawing.Point(3, 338);
-            this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(263, 186);
-            this.groupBox12.TabIndex = 11;
-            this.groupBox12.TabStop = false;
-            this.groupBox12.Text = "groupBox12";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.ForeColor = System.Drawing.Color.Red;
-            this.label25.Location = new System.Drawing.Point(152, 114);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(93, 20);
-            this.label25.TabIndex = 9;
-            this.label25.Text = "Bay thẳng";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(13, 115);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(130, 20);
-            this.label26.TabIndex = 8;
-            this.label26.Text = "Airplane Name -";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(148, 60);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(103, 38);
-            this.label27.TabIndex = 7;
-            this.label27.Text = "00:00";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(107, 73);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(43, 22);
-            this.label28.TabIndex = 6;
-            this.label28.Text = "Đến";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(0, 61);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(103, 38);
-            this.label29.TabIndex = 5;
-            this.label29.Text = "00:00";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(91, 18);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(76, 22);
-            this.label30.TabIndex = 4;
-            this.label30.Text = "Flight ID\r\n";
-            // 
-            // vScrollBar1
-            // 
-            this.vScrollBar1.Location = new System.Drawing.Point(1176, 135);
-            this.vScrollBar1.Name = "vScrollBar1";
-            this.vScrollBar1.Size = new System.Drawing.Size(28, 531);
-            this.vScrollBar1.TabIndex = 12;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackgroundImage = global::AirlinesVietWinForm.Properties.Resources.hetcho;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(281, 126);
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = global::AirlinesVietWinForm.Properties.Resources.airplane_icon1;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(280, 37);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(32, 28);
-            this.pictureBox2.TabIndex = 8;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::AirlinesVietWinForm.Properties.Resources.rightarrow;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(499, 24);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(68, 41);
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
-            // 
-            // panel5
-            // 
-            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Controls.Add(this.button8);
-            this.panel5.Controls.Add(this.pictureBox4);
-            this.panel5.Location = new System.Drawing.Point(283, 338);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(281, 186);
-            this.panel5.TabIndex = 11;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackgroundImage = global::AirlinesVietWinForm.Properties.Resources.hetcho;
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox4.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(281, 126);
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
-            // 
-            // panel6
-            // 
-            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel6.Controls.Add(this.button4);
-            this.panel6.Controls.Add(this.label32);
-            this.panel6.Controls.Add(this.label31);
-            this.panel6.Location = new System.Drawing.Point(569, 135);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(281, 186);
-            this.panel6.TabIndex = 11;
-            // 
             // tabPage3
             // 
             this.tabPage3.Location = new System.Drawing.Point(4, 25);
@@ -817,206 +1038,41 @@
             this.tabPage3.Text = "Ngày mai";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // label31
+            // buttonTroLai
             // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(73, 18);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(135, 52);
-            this.label31.TabIndex = 0;
-            this.label31.Text = "0,000";
+            this.buttonTroLai.BackColor = System.Drawing.Color.Gold;
+            this.buttonTroLai.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonTroLai.Location = new System.Drawing.Point(12, 4);
+            this.buttonTroLai.Name = "buttonTroLai";
+            this.buttonTroLai.Size = new System.Drawing.Size(120, 39);
+            this.buttonTroLai.TabIndex = 14;
+            this.buttonTroLai.Text = "Trở lại";
+            this.buttonTroLai.UseVisualStyleBackColor = false;
+            this.buttonTroLai.Click += new System.EventHandler(this.buttonTroLai_Click);
             // 
-            // label32
+            // panel10
             // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.label32.Location = new System.Drawing.Point(68, 79);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(145, 36);
-            this.label32.TabIndex = 1;
-            this.label32.Text = "000 VND";
+            this.panel10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel10.Controls.Add(this.labelCityAirport1);
+            this.panel10.Controls.Add(this.labelCodeAirport1);
+            this.panel10.Location = new System.Drawing.Point(193, 10);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(337, 93);
+            this.panel10.TabIndex = 5;
             // 
-            // button3
+            // panel11
             // 
-            this.button3.BackColor = System.Drawing.Color.Aquamarine;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button3.Location = new System.Drawing.Point(110, 140);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(59, 26);
-            this.button3.TabIndex = 11;
-            this.button3.Text = ">";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.Aquamarine;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button4.Location = new System.Drawing.Point(110, 140);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(59, 26);
-            this.button4.TabIndex = 12;
-            this.button4.Text = ">";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // panel7
-            // 
-            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel7.Controls.Add(this.button5);
-            this.panel7.Controls.Add(this.label33);
-            this.panel7.Controls.Add(this.label34);
-            this.panel7.Location = new System.Drawing.Point(856, 135);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(281, 186);
-            this.panel7.TabIndex = 13;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.Aquamarine;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button5.Location = new System.Drawing.Point(110, 140);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(59, 26);
-            this.button5.TabIndex = 12;
-            this.button5.Text = ">";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.label33.Location = new System.Drawing.Point(68, 79);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(145, 36);
-            this.label33.TabIndex = 1;
-            this.label33.Text = "000 VND";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(73, 18);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(135, 52);
-            this.label34.TabIndex = 0;
-            this.label34.Text = "0,000";
-            // 
-            // panel8
-            // 
-            this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel8.Controls.Add(this.button6);
-            this.panel8.Controls.Add(this.label35);
-            this.panel8.Controls.Add(this.label36);
-            this.panel8.Location = new System.Drawing.Point(569, 338);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(281, 186);
-            this.panel8.TabIndex = 13;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.Aquamarine;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button6.Location = new System.Drawing.Point(110, 140);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(59, 26);
-            this.button6.TabIndex = 12;
-            this.button6.Text = ">";
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.label35.Location = new System.Drawing.Point(68, 79);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(145, 36);
-            this.label35.TabIndex = 1;
-            this.label35.Text = "000 VND";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(73, 18);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(135, 52);
-            this.label36.TabIndex = 0;
-            this.label36.Text = "0,000";
-            // 
-            // panel9
-            // 
-            this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel9.Controls.Add(this.button7);
-            this.panel9.Controls.Add(this.label37);
-            this.panel9.Controls.Add(this.label38);
-            this.panel9.Location = new System.Drawing.Point(856, 338);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(281, 186);
-            this.panel9.TabIndex = 14;
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.Aquamarine;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button7.Location = new System.Drawing.Point(110, 140);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(59, 26);
-            this.button7.TabIndex = 12;
-            this.button7.Text = ">";
-            this.button7.UseVisualStyleBackColor = false;
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.label37.Location = new System.Drawing.Point(68, 79);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(145, 36);
-            this.label37.TabIndex = 1;
-            this.label37.Text = "000 VND";
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.Location = new System.Drawing.Point(73, 18);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(135, 52);
-            this.label38.TabIndex = 0;
-            this.label38.Text = "0,000";
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.Aquamarine;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button8.Location = new System.Drawing.Point(109, 140);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(59, 26);
-            this.button8.TabIndex = 12;
-            this.button8.Text = ">";
-            this.button8.UseVisualStyleBackColor = false;
-            // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.Aquamarine;
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button9.Location = new System.Drawing.Point(105, 154);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(59, 26);
-            this.button9.TabIndex = 11;
-            this.button9.Text = ">";
-            this.button9.UseVisualStyleBackColor = false;
+            this.panel11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel11.Controls.Add(this.labelCityAirport2);
+            this.panel11.Controls.Add(this.labelCodeAirport2);
+            this.panel11.Location = new System.Drawing.Point(786, 10);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(327, 93);
+            this.panel11.TabIndex = 6;
             // 
             // SelectFlight
             // 
@@ -1024,6 +1080,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(1902, 1033);
+            this.Controls.Add(this.buttonTroLai);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.groupBox10);
             this.Controls.Add(this.groupBox1);
@@ -1031,7 +1088,7 @@
             this.Text = "SelectFlight";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
@@ -1040,6 +1097,7 @@
             this.groupBox4.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
             this.groupBox7.ResumeLayout(false);
@@ -1051,40 +1109,42 @@
             this.groupBox10.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.groupBox11.ResumeLayout(false);
-            this.groupBox11.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.groupBox12.ResumeLayout(false);
-            this.groupBox12.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.groupBox12.ResumeLayout(false);
+            this.groupBox12.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.groupBox11.ResumeLayout(false);
+            this.groupBox11.PerformLayout();
+            this.panel10.ResumeLayout(false);
+            this.panel10.PerformLayout();
+            this.panel11.ResumeLayout(false);
+            this.panel11.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label labelCodeAirport1;
+        private System.Windows.Forms.Label labelCityAirport1;
+        private System.Windows.Forms.Label labelCodeAirport2;
+        private System.Windows.Forms.Label labelCityAirport2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label5;
@@ -1158,5 +1218,8 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button buttonTroLai;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.Panel panel10;
     }
 }

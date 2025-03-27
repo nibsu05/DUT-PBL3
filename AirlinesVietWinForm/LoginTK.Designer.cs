@@ -34,10 +34,10 @@
             this.labelGioiThieu = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonDangNhap = new System.Windows.Forms.Button();
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textBoxSoDienThoai = new System.Windows.Forms.TextBox();
+            this.comboBoxSoDienThoai = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -75,10 +75,10 @@
             this.groupBox2.Controls.Add(this.labelGioiThieu);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.button1);
+            this.groupBox2.Controls.Add(this.buttonDangNhap);
             this.groupBox2.Controls.Add(this.vScrollBar1);
-            this.groupBox2.Controls.Add(this.textBox1);
-            this.groupBox2.Controls.Add(this.comboBox1);
+            this.groupBox2.Controls.Add(this.textBoxSoDienThoai);
+            this.groupBox2.Controls.Add(this.comboBoxSoDienThoai);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.groupBox2.Location = new System.Drawing.Point(147, 70);
@@ -121,16 +121,17 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "Bạn chưa có tài khoản?";
             // 
-            // button1
+            // buttonDangNhap
             // 
-            this.button1.BackColor = System.Drawing.Color.Gold;
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(256, 184);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(273, 65);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Đăng nhập";
-            this.button1.UseVisualStyleBackColor = false;
+            this.buttonDangNhap.BackColor = System.Drawing.Color.Gold;
+            this.buttonDangNhap.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonDangNhap.Location = new System.Drawing.Point(256, 184);
+            this.buttonDangNhap.Name = "buttonDangNhap";
+            this.buttonDangNhap.Size = new System.Drawing.Size(273, 65);
+            this.buttonDangNhap.TabIndex = 4;
+            this.buttonDangNhap.Text = "Đăng nhập";
+            this.buttonDangNhap.UseVisualStyleBackColor = false;
+            this.buttonDangNhap.Click += new System.EventHandler(this.buttonDangNhap_Click);
             // 
             // vScrollBar1
             // 
@@ -139,25 +140,25 @@
             this.vScrollBar1.Size = new System.Drawing.Size(21, 425);
             this.vScrollBar1.TabIndex = 3;
             // 
-            // textBox1
+            // textBoxSoDienThoai
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(287, 105);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(441, 30);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.Text = "Số điện thoại";
+            this.textBoxSoDienThoai.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxSoDienThoai.Location = new System.Drawing.Point(287, 105);
+            this.textBoxSoDienThoai.Name = "textBoxSoDienThoai";
+            this.textBoxSoDienThoai.Size = new System.Drawing.Size(441, 30);
+            this.textBoxSoDienThoai.TabIndex = 2;
+            this.textBoxSoDienThoai.Text = "Số điện thoại";
             // 
-            // comboBox1
+            // comboBoxSoDienThoai
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.comboBoxSoDienThoai.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxSoDienThoai.FormattingEnabled = true;
+            this.comboBoxSoDienThoai.Items.AddRange(new object[] {
             "Vietnam (+84)"});
-            this.comboBox1.Location = new System.Drawing.Point(58, 102);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(209, 33);
-            this.comboBox1.TabIndex = 1;
+            this.comboBoxSoDienThoai.Location = new System.Drawing.Point(58, 102);
+            this.comboBoxSoDienThoai.Name = "comboBoxSoDienThoai";
+            this.comboBoxSoDienThoai.Size = new System.Drawing.Size(209, 33);
+            this.comboBoxSoDienThoai.TabIndex = 1;
             // 
             // label1
             // 
@@ -169,7 +170,7 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Đăng nhập";
             // 
-            // Login
+            // LoginTK
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -178,9 +179,10 @@
             this.ClientSize = new System.Drawing.Size(1902, 1033);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Login";
+            this.Name = "LoginTK";
             this.Text = "Login";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.LoginTK_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
@@ -196,11 +198,11 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.VScrollBar vScrollBar1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textBoxSoDienThoai;
+        private System.Windows.Forms.Button buttonDangNhap;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label labelGioiThieu;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBoxSoDienThoai;
     }
 }

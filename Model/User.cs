@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace Model
 {
-    public class User
+    public class UserAccount
     {
-        public int user_id { get; set; };
+        public string user_id { get; set; }
         public string full_name { get; set; }
         public string email { get; set; }
         public string phone { get; set; }
-        public string password_hash { get; set; }
-        public string created_at { get; set; }
+        public string password { get; set; }
+        public string member_rank { get; set; }
+        public string birthday { get; set; }
     }
 }
